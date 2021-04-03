@@ -1,3 +1,6 @@
+/* eslint-disable func-call-spacing */
+/* eslint-disable no-unexpected-multiline */
+/* eslint-disable no-undef */
 /**
  * 2 kyu - Multi Line Task++: Hello World
  * https://www.codewars.com/kata/5935558a32fb828aad001213

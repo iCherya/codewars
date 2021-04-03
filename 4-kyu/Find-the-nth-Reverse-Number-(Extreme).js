@@ -1,3 +1,4 @@
+/* global BigInt */
 /**
  * 4 kyu - Find the nth Reverse Number (Extreme)
  * https://www.codewars.com/kata/600c18ec9f033b0008d55eec

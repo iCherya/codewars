@@ -1,3 +1,4 @@
+/* eslint-disable no-redeclare */
 /**
  * 4 kyu - parseInt() reloaded
  * https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5
@@ -36,7 +37,7 @@ const parseInt = (string) => {
     if (string === 'one million') return 1000000;
     if (string === 'zero') return 0;
 
-    let arr = string.split(' ').filter((el) => el !== 'and');
+    const arr = string.split(' ').filter((el) => el !== 'and');
     let number = 0;
 
     for (let i = 0; i < arr.length; i++) {

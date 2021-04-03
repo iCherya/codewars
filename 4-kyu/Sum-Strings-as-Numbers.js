@@ -16,8 +16,8 @@ const sumStrings = (num1, num2) => {
         result.push(sum % 10);
     }
 
-    if (rest != 0) result.push(rest);
-    if (result[result.length - 1] == 0) result.pop();
+    if (rest !== 0) result.push(rest);
+    if (result[result.length - 1] === 0) result.pop();
 
     return result.reverse().join('');
 };

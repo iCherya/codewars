@@ -7,7 +7,7 @@ const lcm = (...args) => {
     const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 
     if (args.length === 1) return args[0];
-    if (args.length == 2) return lcmTwoNums(args[0], args[1]);
+    if (args.length === 2) return lcmTwoNums(args[0], args[1]);
 
     const last = args.pop();
     return lcmTwoNums(last, lcm(...args));

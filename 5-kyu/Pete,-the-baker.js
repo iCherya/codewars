@@ -1,3 +1,4 @@
+/* eslint-disable guard-for-in */
 /**
  * 5 kyu - Pete, the baker
  * https://www.codewars.com/kata/525c65e51bf619685c000059

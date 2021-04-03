@@ -15,7 +15,7 @@ const duplicateEncode = (word) => {
 
     let result = '';
 
-    for (let char of word) {
+    for (const char of word) {
         if (map[char] === 1) {
             result += '(';
         } else {
@@ -25,8 +25,3 @@ const duplicateEncode = (word) => {
 
     return result;
 };
-
-console.log(duplicateEncode('din'), '(((');
-console.log(duplicateEncode('recede'), '()()()');
-console.log(duplicateEncode('Success'), ')())())', 'should ignore case');
-console.log(duplicateEncode('(( @'), '))((');

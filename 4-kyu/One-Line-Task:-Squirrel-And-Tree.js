@@ -1,3 +1,6 @@
+/* eslint-disable no-floating-decimal */
+/* eslint-disable arrow-spacing */
+/* eslint-disable no-undef */
 /**
  * 4 kyu - One Line Task: Squirrel And Tree
  * https://www.codewars.com/kata/59016379ee5456d8cc00000f

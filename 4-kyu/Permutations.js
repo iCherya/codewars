@@ -13,7 +13,7 @@ const permutations = (string) => {
             const ch = chars.splice(i, 1);
             usedChars.push(ch);
 
-            if (chars.length == 0) permArr[permArr.length] = usedChars.join('');
+            if (chars.length === 0) permArr[permArr.length] = usedChars.join('');
 
             permute(chars.join(''));
             chars.splice(i, 0, ch);

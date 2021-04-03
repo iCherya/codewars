@@ -4,4 +4,4 @@
  */
 const evenLast = (numbers) =>
     (numbers[numbers.length - 1] || 0) *
-    numbers.filter((el, idx) => idx % 2 == 0).reduce((acc, curr) => acc + curr, 0);
+    numbers.filter((_, idx) => idx % 2 === 0).reduce((acc, curr) => acc + curr, 0);

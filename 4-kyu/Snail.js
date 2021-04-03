@@ -21,7 +21,7 @@ const snail = (array) => {
         }
 
         for (let l = rightBoundary; l >= leftBoundary; l--) {
-            if (lowerBoundary != upperBoundary) {
+            if (lowerBoundary !== upperBoundary) {
                 travel.push(array[lowerBoundary][l]);
             }
         }

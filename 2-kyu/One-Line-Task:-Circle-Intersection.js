@@ -1,3 +1,6 @@
+/* eslint-disable arrow-spacing */
+/* eslint-disable no-undef */
+/* eslint-disable no-with */
 /**
  * 2 kyu - One Line Task: Circle Intersection
  * https://www.codewars.com/kata/5908242330e4f567e90000a3

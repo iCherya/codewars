@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * 7 kyu - Basic JS - Calculating averages
  * https://www.codewars.com/kata/529f32794a6db5d32a00071f

@@ -30,6 +30,8 @@ const getPlanetName = (id) => {
         case 8:
             name = 'Neptune';
             break;
+        default:
+            name = '';
     }
 
     return name;
