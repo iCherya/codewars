@@ -12,4 +12,3 @@ const multiTable = (number) => {
 
     return result.join('\n');
 };
-console.log(multiTable(5));
