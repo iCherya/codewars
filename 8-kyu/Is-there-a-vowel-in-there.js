@@ -10,4 +10,3 @@ const isVow = (a) =>
 
         return number;
     });
-);
